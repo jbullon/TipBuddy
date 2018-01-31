@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		163175801FF9B96F0005EBA1 /* FinalTipViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1631757F1FF9B96F0005EBA1 /* FinalTipViewViewController.swift */; };
+		166180172001F4FF00068B3B /* TipTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166180162001F4FF00068B3B /* TipTrackerViewController.swift */; };
+		166180192001F51B00068B3B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166180182001F51B00068B3B /* AboutViewController.swift */; };
+		16A5F5091FECCE2400D3143C /* ViewControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A5F5081FECCE2400D3143C /* ViewControllerMain.swift */; };
+		16A7F8DB1F83513200276867 /* Quicksand_Dash.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16A7F8D61F83510600276867 /* Quicksand_Dash.otf */; };
+		16A7F8DC1F83513200276867 /* Quicksand-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16A7F8D81F83510600276867 /* Quicksand-Bold.otf */; };
+		16A7F8DD1F83513200276867 /* Quicksand-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16A7F8D71F83510600276867 /* Quicksand-BoldItalic.otf */; };
+		16A7F8DE1F83513200276867 /* Quicksand-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16A7F8D41F83510500276867 /* Quicksand-Italic.otf */; };
+		16A7F8DF1F83513200276867 /* Quicksand-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16A7F8D91F83510600276867 /* Quicksand-Light.otf */; };
+		16A7F8E01F83513200276867 /* Quicksand-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16A7F8D51F83510500276867 /* Quicksand-LightItalic.otf */; };
+		16A7F8E11F83513200276867 /* Quicksand-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16A7F8DA1F83510600276867 /* Quicksand-Regular.otf */; };
+		16BC7D471F7EF30B00A6357E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC7D461F7EF30B00A6357E /* AppDelegate.swift */; };
+		16BC7D491F7EF30B00A6357E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC7D481F7EF30B00A6357E /* ViewController.swift */; };
+		16BC7D4C1F7EF30B00A6357E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16BC7D4A1F7EF30B00A6357E /* Main.storyboard */; };
+		16BC7D4E1F7EF30B00A6357E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16BC7D4D1F7EF30B00A6357E /* Assets.xcassets */; };
+		16BC7D511F7EF30B00A6357E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16BC7D4F1F7EF30B00A6357E /* LaunchScreen.storyboard */; };
+		16BC7D5C1F7EF30B00A6357E /* Tip_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC7D5B1F7EF30B00A6357E /* Tip_BuddyTests.swift */; };
+		16BC7D671F7EF30B00A6357E /* Tip_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC7D661F7EF30B00A6357E /* Tip_BuddyUITests.swift */; };
+		16D481421FF06AB100F4C253 /* click1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16D481411FF06AB100F4C253 /* click1.mp3 */; };
+		16F4B9A21FFA2B9E007C6F1E /* DeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4B9A11FFA2B9E007C6F1E /* DeliveryViewController.swift */; };
+		65F544BF200835BA00DCD75C /* BackGroundThemes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F544BE200835BA00DCD75C /* BackGroundThemes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16BC7D581F7EF30B00A6357E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16BC7D3B1F7EF30B00A6357E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16BC7D421F7EF30B00A6357E;
+			remoteInfo = "Tip Buddy";
+		};
+		16BC7D631F7EF30B00A6357E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16BC7D3B1F7EF30B00A6357E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16BC7D421F7EF30B00A6357E;
+			remoteInfo = "Tip Buddy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1631757F1FF9B96F0005EBA1 /* FinalTipViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalTipViewViewController.swift; sourceTree = "<group>"; };
+		166180162001F4FF00068B3B /* TipTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipTrackerViewController.swift; sourceTree = "<group>"; };
+		166180182001F51B00068B3B /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		16A5F5081FECCE2400D3143C /* ViewControllerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMain.swift; sourceTree = "<group>"; };
+		16A7F8D41F83510500276867 /* Quicksand-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Italic.otf"; sourceTree = "<group>"; };
+		16A7F8D51F83510500276867 /* Quicksand-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-LightItalic.otf"; sourceTree = "<group>"; };
+		16A7F8D61F83510600276867 /* Quicksand_Dash.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quicksand_Dash.otf; sourceTree = "<group>"; };
+		16A7F8D71F83510600276867 /* Quicksand-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-BoldItalic.otf"; sourceTree = "<group>"; };
+		16A7F8D81F83510600276867 /* Quicksand-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.otf"; sourceTree = "<group>"; };
+		16A7F8D91F83510600276867 /* Quicksand-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.otf"; sourceTree = "<group>"; };
+		16A7F8DA1F83510600276867 /* Quicksand-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.otf"; sourceTree = "<group>"; };
+		16BC7D431F7EF30B00A6357E /* Tip Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BC7D461F7EF30B00A6357E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16BC7D481F7EF30B00A6357E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16BC7D4B1F7EF30B00A6357E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16BC7D4D1F7EF30B00A6357E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16BC7D501F7EF30B00A6357E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16BC7D521F7EF30B00A6357E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16BC7D571F7EF30B00A6357E /* Tip BuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip BuddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BC7D5B1F7EF30B00A6357E /* Tip_BuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_BuddyTests.swift; sourceTree = "<group>"; };
+		16BC7D5D1F7EF30B00A6357E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16BC7D621F7EF30B00A6357E /* Tip BuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip BuddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BC7D661F7EF30B00A6357E /* Tip_BuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_BuddyUITests.swift; sourceTree = "<group>"; };
+		16BC7D681F7EF30B00A6357E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D481411FF06AB100F4C253 /* click1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click1.mp3; sourceTree = "<group>"; };
+		16F4B9A11FFA2B9E007C6F1E /* DeliveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DeliveryViewController.swift; path = ../DeliveryViewController.swift; sourceTree = "<group>"; };
+		65F544BE200835BA00DCD75C /* BackGroundThemes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundThemes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16BC7D401F7EF30B00A6357E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BC7D541F7EF30B00A6357E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BC7D5F1F7EF30B00A6357E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16A7F8D31F8350E300276867 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				16A7F8D61F83510600276867 /* Quicksand_Dash.otf */,
+				16A7F8D81F83510600276867 /* Quicksand-Bold.otf */,
+				16A7F8D71F83510600276867 /* Quicksand-BoldItalic.otf */,
+				16A7F8D41F83510500276867 /* Quicksand-Italic.otf */,
+				16A7F8D91F83510600276867 /* Quicksand-Light.otf */,
+				16A7F8D51F83510500276867 /* Quicksand-LightItalic.otf */,
+				16A7F8DA1F83510600276867 /* Quicksand-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		16BC7D3A1F7EF30B00A6357E = {
+			isa = PBXGroup;
+			children = (
+				65F544BE200835BA00DCD75C /* BackGroundThemes.swift */,
+				16BC7D451F7EF30B00A6357E /* Tip Buddy */,
+				16BC7D5A1F7EF30B00A6357E /* Tip BuddyTests */,
+				16BC7D651F7EF30B00A6357E /* Tip BuddyUITests */,
+				16BC7D441F7EF30B00A6357E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16BC7D441F7EF30B00A6357E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16BC7D431F7EF30B00A6357E /* Tip Buddy.app */,
+				16BC7D571F7EF30B00A6357E /* Tip BuddyTests.xctest */,
+				16BC7D621F7EF30B00A6357E /* Tip BuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16BC7D451F7EF30B00A6357E /* Tip Buddy */ = {
+			isa = PBXGroup;
+			children = (
+				16A7F8D31F8350E300276867 /* Fonts */,
+				16BC7D741F7EF32C00A6357E /* Supporting Files */,
+				16BC7D461F7EF30B00A6357E /* AppDelegate.swift */,
+				16BC7D481F7EF30B00A6357E /* ViewController.swift */,
+				16A5F5081FECCE2400D3143C /* ViewControllerMain.swift */,
+				16F4B9A11FFA2B9E007C6F1E /* DeliveryViewController.swift */,
+				1631757F1FF9B96F0005EBA1 /* FinalTipViewViewController.swift */,
+				166180162001F4FF00068B3B /* TipTrackerViewController.swift */,
+				166180182001F51B00068B3B /* AboutViewController.swift */,
+				16BC7D4A1F7EF30B00A6357E /* Main.storyboard */,
+				16BC7D4D1F7EF30B00A6357E /* Assets.xcassets */,
+				16BC7D4F1F7EF30B00A6357E /* LaunchScreen.storyboard */,
+				16BC7D521F7EF30B00A6357E /* Info.plist */,
+				16D481411FF06AB100F4C253 /* click1.mp3 */,
+			);
+			path = "Tip Buddy";
+			sourceTree = "<group>";
+		};
+		16BC7D5A1F7EF30B00A6357E /* Tip BuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				16BC7D5B1F7EF30B00A6357E /* Tip_BuddyTests.swift */,
+				16BC7D5D1F7EF30B00A6357E /* Info.plist */,
+			);
+			path = "Tip BuddyTests";
+			sourceTree = "<group>";
+		};
+		16BC7D651F7EF30B00A6357E /* Tip BuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16BC7D661F7EF30B00A6357E /* Tip_BuddyUITests.swift */,
+				16BC7D681F7EF30B00A6357E /* Info.plist */,
+			);
+			path = "Tip BuddyUITests";
+			sourceTree = "<group>";
+		};
+		16BC7D741F7EF32C00A6357E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16BC7D421F7EF30B00A6357E /* Tip Buddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16BC7D6B1F7EF30B00A6357E /* Build configuration list for PBXNativeTarget "Tip Buddy" */;
+			buildPhases = (
+				16BC7D3F1F7EF30B00A6357E /* Sources */,
+				16BC7D401F7EF30B00A6357E /* Frameworks */,
+				16BC7D411F7EF30B00A6357E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tip Buddy";
+			productName = "Tip Buddy";
+			productReference = 16BC7D431F7EF30B00A6357E /* Tip Buddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16BC7D561F7EF30B00A6357E /* Tip BuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16BC7D6E1F7EF30B00A6357E /* Build configuration list for PBXNativeTarget "Tip BuddyTests" */;
+			buildPhases = (
+				16BC7D531F7EF30B00A6357E /* Sources */,
+				16BC7D541F7EF30B00A6357E /* Frameworks */,
+				16BC7D551F7EF30B00A6357E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16BC7D591F7EF30B00A6357E /* PBXTargetDependency */,
+			);
+			name = "Tip BuddyTests";
+			productName = "Tip BuddyTests";
+			productReference = 16BC7D571F7EF30B00A6357E /* Tip BuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16BC7D611F7EF30B00A6357E /* Tip BuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16BC7D711F7EF30B00A6357E /* Build configuration list for PBXNativeTarget "Tip BuddyUITests" */;
+			buildPhases = (
+				16BC7D5E1F7EF30B00A6357E /* Sources */,
+				16BC7D5F1F7EF30B00A6357E /* Frameworks */,
+				16BC7D601F7EF30B00A6357E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16BC7D641F7EF30B00A6357E /* PBXTargetDependency */,
+			);
+			name = "Tip BuddyUITests";
+			productName = "Tip BuddyUITests";
+			productReference = 16BC7D621F7EF30B00A6357E /* Tip BuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16BC7D3B1F7EF30B00A6357E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Jacob Bullon";
+				TargetAttributes = {
+					16BC7D421F7EF30B00A6357E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					16BC7D561F7EF30B00A6357E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16BC7D421F7EF30B00A6357E;
+					};
+					16BC7D611F7EF30B00A6357E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16BC7D421F7EF30B00A6357E;
+					};
+				};
+			};
+			buildConfigurationList = 16BC7D3E1F7EF30B00A6357E /* Build configuration list for PBXProject "Tip Buddy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16BC7D3A1F7EF30B00A6357E;
+			productRefGroup = 16BC7D441F7EF30B00A6357E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16BC7D421F7EF30B00A6357E /* Tip Buddy */,
+				16BC7D561F7EF30B00A6357E /* Tip BuddyTests */,
+				16BC7D611F7EF30B00A6357E /* Tip BuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16BC7D411F7EF30B00A6357E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A7F8DB1F83513200276867 /* Quicksand_Dash.otf in Resources */,
+				16A7F8DC1F83513200276867 /* Quicksand-Bold.otf in Resources */,
+				16A7F8DD1F83513200276867 /* Quicksand-BoldItalic.otf in Resources */,
+				16A7F8DE1F83513200276867 /* Quicksand-Italic.otf in Resources */,
+				16D481421FF06AB100F4C253 /* click1.mp3 in Resources */,
+				16A7F8DF1F83513200276867 /* Quicksand-Light.otf in Resources */,
+				16A7F8E01F83513200276867 /* Quicksand-LightItalic.otf in Resources */,
+				16A7F8E11F83513200276867 /* Quicksand-Regular.otf in Resources */,
+				16BC7D511F7EF30B00A6357E /* LaunchScreen.storyboard in Resources */,
+				16BC7D4E1F7EF30B00A6357E /* Assets.xcassets in Resources */,
+				16BC7D4C1F7EF30B00A6357E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BC7D551F7EF30B00A6357E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BC7D601F7EF30B00A6357E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16BC7D3F1F7EF30B00A6357E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163175801FF9B96F0005EBA1 /* FinalTipViewViewController.swift in Sources */,
+				16A5F5091FECCE2400D3143C /* ViewControllerMain.swift in Sources */,
+				16F4B9A21FFA2B9E007C6F1E /* DeliveryViewController.swift in Sources */,
+				166180192001F51B00068B3B /* AboutViewController.swift in Sources */,
+				166180172001F4FF00068B3B /* TipTrackerViewController.swift in Sources */,
+				16BC7D491F7EF30B00A6357E /* ViewController.swift in Sources */,
+				16BC7D471F7EF30B00A6357E /* AppDelegate.swift in Sources */,
+				65F544BF200835BA00DCD75C /* BackGroundThemes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BC7D531F7EF30B00A6357E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BC7D5C1F7EF30B00A6357E /* Tip_BuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16BC7D5E1F7EF30B00A6357E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BC7D671F7EF30B00A6357E /* Tip_BuddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16BC7D591F7EF30B00A6357E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16BC7D421F7EF30B00A6357E /* Tip Buddy */;
+			targetProxy = 16BC7D581F7EF30B00A6357E /* PBXContainerItemProxy */;
+		};
+		16BC7D641F7EF30B00A6357E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16BC7D421F7EF30B00A6357E /* Tip Buddy */;
+			targetProxy = 16BC7D631F7EF30B00A6357E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16BC7D4A1F7EF30B00A6357E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16BC7D4B1F7EF30B00A6357E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16BC7D4F1F7EF30B00A6357E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16BC7D501F7EF30B00A6357E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16BC7D691F7EF30B00A6357E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16BC7D6A1F7EF30B00A6357E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16BC7D6C1F7EF30B00A6357E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WHPY9LE2Y7;
+				INFOPLIST_FILE = "Tip Buddy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ".com.jacob-bullon.Tip-Buddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16BC7D6D1F7EF30B00A6357E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WHPY9LE2Y7;
+				INFOPLIST_FILE = "Tip Buddy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ".com.jacob-bullon.Tip-Buddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16BC7D6F1F7EF30B00A6357E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tip BuddyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jacob-bullon.Tip-BuddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tip Buddy.app/Tip Buddy";
+			};
+			name = Debug;
+		};
+		16BC7D701F7EF30B00A6357E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tip BuddyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jacob-bullon.Tip-BuddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tip Buddy.app/Tip Buddy";
+			};
+			name = Release;
+		};
+		16BC7D721F7EF30B00A6357E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tip BuddyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jacob-bullon.Tip-BuddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tip Buddy";
+			};
+			name = Debug;
+		};
+		16BC7D731F7EF30B00A6357E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tip BuddyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jacob-bullon.Tip-BuddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tip Buddy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16BC7D3E1F7EF30B00A6357E /* Build configuration list for PBXProject "Tip Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BC7D691F7EF30B00A6357E /* Debug */,
+				16BC7D6A1F7EF30B00A6357E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16BC7D6B1F7EF30B00A6357E /* Build configuration list for PBXNativeTarget "Tip Buddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BC7D6C1F7EF30B00A6357E /* Debug */,
+				16BC7D6D1F7EF30B00A6357E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16BC7D6E1F7EF30B00A6357E /* Build configuration list for PBXNativeTarget "Tip BuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BC7D6F1F7EF30B00A6357E /* Debug */,
+				16BC7D701F7EF30B00A6357E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16BC7D711F7EF30B00A6357E /* Build configuration list for PBXNativeTarget "Tip BuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16BC7D721F7EF30B00A6357E /* Debug */,
+				16BC7D731F7EF30B00A6357E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16BC7D3B1F7EF30B00A6357E /* Project object */;
+}
